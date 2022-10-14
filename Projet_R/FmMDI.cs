@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Projet_R.forma1;
+using Projet_R.forma2;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +22,11 @@ namespace Projet_R
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
+        }
+
+        private void forma1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fm1_formulario1 fm = new fm1_formulario1();
         }
     }
 }

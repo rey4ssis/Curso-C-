@@ -52,10 +52,52 @@
     <Compile Include="FmMDI.Designer.cs">
       <DependentUpon>FmMDI.cs</DependentUpon>
     </Compile>
+    <Compile Include="forma1\fm1_formulario1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forma1\fm1_formulario1.Designer.cs">
+      <DependentUpon>fm1_formulario1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forma1\fm1_formulario2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forma1\fm1_formulario2.Designer.cs">
+      <DependentUpon>fm1_formulario2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forma2\fm2_formulario1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forma2\fm2_formulario1.Designer.cs">
+      <DependentUpon>fm2_formulario1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forma2\fm2_formulario2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forma2\fm2_formulario2.Designer.cs">
+      <DependentUpon>fm2_formulario2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forma3\fm3_formulario1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forma3\fm3_formulario1.Designer.cs">
+      <DependentUpon>fm3_formulario1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forma3\fm3_formulario2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forma3\fm3_formulario2.Designer.cs">
+      <DependentUpon>fm3_formulario2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FmMDI.resx">
       <DependentUpon>FmMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forma1\fm1_formulario1.resx">
+      <DependentUpon>fm1_formulario1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forma1\fm1_formulario2.resx">
+      <DependentUpon>fm1_formulario2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,5 +121,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
